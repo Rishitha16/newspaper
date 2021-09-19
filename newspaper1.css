@@ -1,0 +1,138 @@
+ 
+body{
+	margin-top:1%;
+	margin-left:9%;
+	margin-right:9%;
+	margin-bottom:1%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #fff;
+	display: block;
+    } 
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.heder-div{
+    width: 50%;
+	margin-bottom: 0px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+    display: inline-block;
+}
+
+.heading {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 89px;
+	margin: 0px;
+}
+
+.top-size{
+	font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+}
+   
+.top-head-2 {
+    border: 2px solid black;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+}
+
+.p1{
+    
+    margin-top: 10px;
+    display : flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: justify;
+
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+.p1 > *{
+    flex: 1 1 0;
+
+}
+
+.block {
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+	display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.left-side {
+    width: 40%;
+	flex-direction: row;
+	margin-right: 3rem;
+}
+.right-side {
+	flex: 1 1 0;
+}
+
+.side-head {
+    background-color: #8f0606;
+    padding: 5px;
+    color: white;
+    width: 200px;
+    height: 66px;
+    font-style: italic;
+	margin: 0px;
+}
+fieldset{
+    border: 0px;
+    padding: 0px;
+    margin:0px ;
+}
+
+legend{
+    background-color: rgb(143, 18, 18);
+    width: 70px;
+    font-size: 16;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+
+}
+.para{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.para-head {
+    font-weight: bold;
+    font-size: 40px;
+	margin: 0px;
+}
+
+.para-bdy {
+    font-size: 20px;
+}
+
+.mr-5, .mx-5 {
+    margin-right: 3rem!important;
+}
+
+.line{
+	width: 83%;
+	height: 2px;
+	border-bottom: 1px solid black;
+	position: absolute;
+	margin-top: 2px;
+	font-weight: bold;
+}
